@@ -1,0 +1,7 @@
+hostname = duolingo-leaderboards-prod.duolingo.com
+
+#友邻优课
+^https://api.ylyk.com/v1/user/my url script-response-body http://localhost/Script/ylyk.js
+
+# Duolingo 
+# ^https://duolingo-leaderboards-prod.duolingo.com/leaderboards/* url script-response-body https://raw.githubusercontent.com/ZhipengRen/App-Crack/master/Js/Duolingo.js
